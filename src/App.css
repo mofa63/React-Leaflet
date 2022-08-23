@@ -1,0 +1,29 @@
+.leaflet-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Bnazanin';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Bnazanin'), url('F:\geodjango\Mogis\static\fonts\BNazanin.ttf') ;
+              }
+.countryLabel{
+                
+                border:0;
+                border-radius:0px;
+                box-shadow: 0 0px 0px;
+                font-family: 'Bnazanin';
+                font-size: large;
+                color: rgb(255, 255, 255);
+                background-color: transparent;
+              }
+
+.leaflet-interactive{
+    fill-opacity : 0.6;
+    stroke: rgb(5, 5, 5);
+    stroke-width: 2;
+}
+
+ 
